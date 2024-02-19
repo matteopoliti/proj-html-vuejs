@@ -1,29 +1,25 @@
-# template-vue-app
+# Bakery
+***
+### Descrizione:
+Sito web per una panetteria.
 
-This template should help get you started developing with Vue 3 in Vite.
+## Struttura
+1. Header diviso in 2: 
+   - logo e navbar
+   - jumbotron 
+2. Main diviso in diverse sezioni:
+    - Our products
+    - Corporate & weddings
+    - Shop all product
+    - Tell Us what you have in minds
+    - Locations
+    - Follow us
 
-## Recommended IDE Setup
+3. Footer Diviso in 2: 
+   - Seasonal products
+   - Newsletter
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## Suddivisone del lavoro
+- Giorno  1: fino a Corporate & weddings
+- Giorno 2: fino a Locations
+- Giorno 3: finire
