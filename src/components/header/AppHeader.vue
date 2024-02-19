@@ -19,7 +19,7 @@
             <p>Cras consequat lectus vestibulum tortor pulvinar, quis
                 euismod nisl varius. Aliquam erat volutpat. Nullam quis sagittis nibh ac nulla id orci tempor.
             </p>
-            <a href="#ourProducts">Explore our products</a>
+            <a href="../main/OurProducts.vue">Explore our products</a>
         </div>
     </header>
 </template>
@@ -78,18 +78,8 @@ header {
         flex-direction: column;
         justify-content: center;
 
-        h5 {
-            text-transform: uppercase;
-            color: $textColorGrey;
-            letter-spacing: 1px;
-            font-size: 16px;
-        }
-
         h2 {
             text-transform: capitalize;
-            font-size: 80px;
-            color: $textColorPurple;
-            font-weight: 900;
         }
 
         p {
@@ -108,6 +98,7 @@ header {
             font-weight: 700;
             width: 230px;
             text-align: center;
+            letter-spacing: 1px;
 
             &:hover {
                 background-color: $textColorPurple;
