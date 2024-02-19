@@ -6,57 +6,57 @@ export const store = reactive({
     ],
     products: [
         {
-            nomeProdotto: 'Choco-Chip-Cookies',
+            nomeProdotto: 'Choco Chip Cookies',
             categoria: 'Cookies, Pastries',
-            prezzo: '$19.00-$39.00',
+            prezzo: '$19.00 - $39.00',
             img: '/src/assets/img/choco-chip-cookies.jpg'
         },
         {
-            nomeProdotto: 'strawberry-jam-cookies',
+            nomeProdotto: 'strawberry jam cookies',
             categoria: 'Cookies, Pastries',
-            prezzo: '$19.00-$39.00',
+            prezzo: '$19.00 - $39.00',
             img: '/src/assets/img/strawberry-jam-cookies.jpg'
         },
         {
-            nomeProdotto: 'strawberry-donut',
+            nomeProdotto: 'strawberry donut',
             categoria: 'Cookies, Pastries',
-            prezzo: '$19.00-$39.00',
+            prezzo: '$19.00 - $39.00',
             img: '/src/assets/img/strawberry-donut.jpg'
         },
         {
-            nomeProdotto: 'perfect-macarons',
+            nomeProdotto: 'perfec -macarons',
             categoria: 'Cookies, Pastries',
-            prezzo: '$19.00-$39.00',
+            prezzo: '$19.00 - $39.00',
             img: '/src/assets/img/perfect-macarons.jpg'
         },
         {
-            nomeProdotto: 'blackberry-stuffed-bread',
+            nomeProdotto: 'blackberry stuffed bread',
             categoria: 'Bread',
-            prezzo: '$19.00-$39.00',
+            prezzo: '$5.00 - $15.00',
             img: '/src/assets/img/blackberry-stuffed-bread.jpg'
         },
         {
-            nomeProdotto: 'home-bread',
+            nomeProdotto: 'home bread',
             categoria: 'Bread',
-            prezzo: '$19.00-$39.00',
+            prezzo: '$2.00 - $10.00',
             img: '/src/assets/img/home-bread.jpg'
         },
         {
-            nomeProdotto: 'cookies-with-ice-cream',
+            nomeProdotto: 'cookies with ice cream',
             categoria: 'Cookies, Pastries',
-            prezzo: '$19.00-$39.00',
+            prezzo: '$19.00 - $39.00',
             img: '/src/assets/img/cookies-with-ice-cream.jpg'
         },
         {
-            nomeProdotto: 'cherry-cake',
+            nomeProdotto: 'cherry cake',
             categoria: 'Cakes',
-            prezzo: '$19.00-$39.00',
+            prezzo: '$50.00 - $200.00',
             img: '/src/assets/img/cherry-cake.jpg'
         },
         {
-            nomeProdotto: 'glazed-pancake-with-lemon',
+            nomeProdotto: 'glazed pancake with lemon',
             categoria: 'Cakes',
-            prezzo: '$19.00-$39.00',
+            prezzo: '$40.00 - $80.00',
             img: '/src/assets/img/glazed-pancake-with-lemon.jpg'
         }
     ]
