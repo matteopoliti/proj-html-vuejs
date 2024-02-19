@@ -23,3 +23,6 @@ Sito web per una panetteria.
 - Giorno  1: fino a Corporate & weddings
 - Giorno 2: fino a Locations
 - Giorno 3: finire
+
+## Palette colori
+<img src="./src/assets/img/palette.png">

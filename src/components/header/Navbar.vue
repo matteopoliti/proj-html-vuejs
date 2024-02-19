@@ -28,10 +28,11 @@ export default {
 li {
     a {
         text-decoration: none;
-        color: $textColor;
+        color: $textColorPurple;
         text-transform: uppercase;
         font-weight: 700;
         letter-spacing: 1px;
+        font-size: clamp(0.5rem, 0.6vw, 2rem);
     }
 }
 </style>
