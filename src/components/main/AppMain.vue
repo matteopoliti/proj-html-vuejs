@@ -4,7 +4,7 @@
         <CorporateWedding />
         <AllProducts />
         <Process />
-
+        <Locations />
     </main>
 </template>
 
@@ -13,6 +13,7 @@ import OurProducts from "./OurProducts.vue"
 import CorporateWedding from "./CorporateWedding.vue"
 import AllProducts from "./AllProducts.vue"
 import Process from "./Process.vue"
+import Locations from "./Locations.vue"
 
 
 export default {
@@ -21,7 +22,8 @@ export default {
         OurProducts,
         CorporateWedding,
         AllProducts,
-        Process
+        Process,
+        Locations
     },
     data() {
 
