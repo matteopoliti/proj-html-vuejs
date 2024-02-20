@@ -10,8 +10,8 @@ Sito web per una panetteria.
 2. Main diviso in diverse sezioni:
     - Our products
     - Corporate & weddings
-    - Shop all product
-    - Tell Us what you have in minds
+    - All product
+    - Process
     - Locations
     - Follow us
 
@@ -20,9 +20,14 @@ Sito web per una panetteria.
    - Newsletter
 
 ## Suddivisone del lavoro
-- Giorno  1: fino a Corporate & weddings
+- Giorno  1: fino a Our Products
 - Giorno 2: fino a Locations
 - Giorno 3: finire
 
 ## Palette colori
 <img src="./src/assets/img/palette.png">
+
+## Font
+Il font utilizzato per questo sito web è Lato.
+
+<img src="./src/assets/img/LatoFont.png">
