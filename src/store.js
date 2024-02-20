@@ -24,7 +24,7 @@ export const store = reactive({
             img: '/src/assets/img/strawberry-donut.jpg'
         },
         {
-            nomeProdotto: 'perfec -macarons',
+            nomeProdotto: 'perfect macarons',
             categoria: 'Cookies, Pastries',
             prezzo: '$19.00 - $39.00',
             img: '/src/assets/img/perfect-macarons.jpg'

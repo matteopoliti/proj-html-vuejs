@@ -83,12 +83,7 @@ header {
             font-size: 80px;
         }
 
-        p {
-            font-size: 24px;
-            letter-spacing: 1px;
-            color: $textColorGrey;
-            line-height: 160%;
-        }
+
 
         a {
             text-decoration: none;
