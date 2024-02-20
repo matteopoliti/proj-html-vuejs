@@ -3,6 +3,8 @@
         <OurProducts />
         <CorporateWedding />
         <AllProducts />
+        <Process />
+
     </main>
 </template>
 
@@ -10,13 +12,16 @@
 import OurProducts from "./OurProducts.vue"
 import CorporateWedding from "./CorporateWedding.vue"
 import AllProducts from "./AllProducts.vue"
+import Process from "./Process.vue"
+
 
 export default {
     name: "AppMain",
     components: {
         OurProducts,
         CorporateWedding,
-        AllProducts
+        AllProducts,
+        Process
     },
     data() {
 

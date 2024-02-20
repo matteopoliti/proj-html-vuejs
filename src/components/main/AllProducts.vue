@@ -102,7 +102,7 @@ section {
     display: flex;
     align-items: center;
     gap: 50px;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
 
     >div:first-child {
         text-align: center;

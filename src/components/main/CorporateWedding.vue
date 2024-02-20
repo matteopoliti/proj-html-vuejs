@@ -62,7 +62,7 @@ section {
         display: flex;
         justify-content: space-between;
         gap: 100px;
-        margin-bottom: 200px;
+        margin-bottom: 300px;
 
         .corporate {
             position: relative;
