@@ -8,7 +8,7 @@
                 morning, and are made with all-
                 natural, all organic ingredients.
             </h2>
-            <a href="#">Start shopping</a>
+            <a href="#" class="btnPurple">Start shopping</a>
         </div>
         <div class="slider">
             <i class="fa-solid fa-angle-left" @click="prevButton"></i>
@@ -87,21 +87,8 @@ export default {
             font-size: 46px;
         }
 
-        a {
-            text-decoration: none;
-            background-color: $textColorPurple;
-            padding: 20px;
-            color: $colorWhite;
-            border-radius: 10px;
-            font-weight: 700;
-            width: 230px;
-            text-align: center;
+        .btnPurple {
             margin-top: 80px;
-
-            &:hover {
-                background-color: $bgButton;
-                color: $textColorPurple;
-            }
         }
     }
 

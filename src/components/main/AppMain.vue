@@ -1,16 +1,19 @@
 <template>
     <main class="container">
         <OurProducts />
+        <CorporateWedding />
     </main>
 </template>
 
 <script>
 import OurProducts from "./OurProducts.vue"
+import CorporateWedding from "./CorporateWedding.vue"
 
 export default {
     name: "AppMain",
     components: {
-        OurProducts
+        OurProducts,
+        CorporateWedding
     },
     data() {
 

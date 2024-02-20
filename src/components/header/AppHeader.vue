@@ -80,6 +80,7 @@ header {
 
         h2 {
             text-transform: capitalize;
+            font-size: 80px;
         }
 
         p {
