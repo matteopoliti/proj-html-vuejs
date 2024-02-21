@@ -4,6 +4,9 @@ export const store = reactive({
     headerNavbar: [
         'HOME', 'SHOP', 'ABOUT', 'GALLERY', 'LOCATIONS', 'JOURNAL', 'CONTACT', 'MY ACCOUNT'
     ],
+    footerNavbar: [
+        'SHOP', 'ABOUT', 'GALLERY', 'LOCATIONS', 'JOURNAL', 'CONTACT', 'orders'
+    ],
     products: [
         {
             nomeProdotto: 'Choco Chip Cookies',
