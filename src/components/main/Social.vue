@@ -10,7 +10,6 @@
                 <div>
                     <button @click="toggleSocials" class="btnPurple">Seguici su social</button>
                     <div :class="(showSocials) ? 'active' : 'socials'">
-                        <!-- Inserisci qui i tuoi link ai social -->
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>

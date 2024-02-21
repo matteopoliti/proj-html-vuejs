@@ -19,7 +19,18 @@
             </div>
 
             <div>
+                <div>
+                    <label for="newsletter">Subscribe to our Newsletter</label>
+                    <input type="email" name="newsletter" id="newsletter" placeholder="Enter email address*">
+                    <button class="btnPurple">Subscribe</button>
+                </div>
 
+                <div class="socials">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                </div>
             </div>
         </div>
     </footer>
@@ -85,6 +96,50 @@ footer {
 
         p {
             font-size: 16px;
+        }
+
+        >div:nth-child(2) {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            label {
+                display: block;
+                font-size: 30px;
+                color: $textColorPurple;
+                font-weight: 900;
+                text-align: end;
+                margin-bottom: 80px;
+            }
+
+            input {
+                width: 600px;
+                padding: 15px;
+                font-size: 20px;
+                outline: none;
+                border: 1px solid #f2eef4;
+                border-radius: 5px;
+                margin-right: 50px;
+                height: 62px;
+            }
+
+            button {
+                font-size: 18px;
+                width: 180px;
+
+            }
+
+            .socials {
+                display: flex;
+                gap: 50px;
+                justify-content: end;
+
+                a {
+                    font-size: 30px;
+                    color: $textColorPurple;
+                }
+            }
         }
     }
 }
