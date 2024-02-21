@@ -5,6 +5,7 @@
         <AllProducts />
         <Process />
         <Locations />
+        <Social />
     </main>
 </template>
 
@@ -14,6 +15,7 @@ import CorporateWedding from "./CorporateWedding.vue"
 import AllProducts from "./AllProducts.vue"
 import Process from "./Process.vue"
 import Locations from "./Locations.vue"
+import Social from "./Social.vue"
 
 
 export default {
@@ -23,7 +25,8 @@ export default {
         CorporateWedding,
         AllProducts,
         Process,
-        Locations
+        Locations,
+        Social
     },
     data() {
 
