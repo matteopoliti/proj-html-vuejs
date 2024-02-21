@@ -130,4 +130,20 @@ section {
         }
     }
 }
+
+@media screen and (max-width: 2000px) {
+
+    section {
+        >div:nth-child(2) {
+            figure {
+
+                img {
+                    width: 800px;
+                    height: 800px;
+                }
+            }
+
+        }
+    }
+}
 </style>

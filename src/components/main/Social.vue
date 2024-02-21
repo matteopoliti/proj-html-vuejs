@@ -10,9 +10,10 @@
                 <div>
                     <button @click="toggleSocials" class="btnPurple">Seguici su social</button>
                     <div :class="(showSocials) ? 'active' : 'socials'">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
                     </div>
                 </div>
             </div>

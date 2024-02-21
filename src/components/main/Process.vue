@@ -194,6 +194,7 @@ section {
                         color: $colorWhite;
                         margin-top: 20px;
                         width: 55%;
+                        font-size: clamp(1rem, 1vw, 2.7rem);
                     }
                 }
             }
@@ -209,7 +210,7 @@ section {
 
             p {
                 color: $textColorPurple;
-                font-size: 50px;
+                font-size: clamp(1rem, 10vw, 2.7rem);
                 font-weight: 900;
                 margin-block: 100px 50px;
             }

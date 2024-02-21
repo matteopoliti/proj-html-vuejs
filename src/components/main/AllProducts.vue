@@ -197,4 +197,22 @@ section {
 
     }
 }
+
+@media screen and (max-width: 2000px) {
+
+    section {
+        .slider {
+            .singleProduct {
+                figure {
+
+                    img {
+                        width: 300px;
+                        height: 400px;
+                    }
+                }
+            }
+
+        }
+    }
+}
 </style>

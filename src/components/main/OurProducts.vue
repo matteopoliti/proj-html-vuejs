@@ -169,4 +169,21 @@ export default {
     }
 
 }
+
+@media screen and (max-width: 2000px) {
+    .ourProducts {
+        .slider {
+            .singleProduct {
+                figure {
+
+                    img {
+                        width: 500px;
+                        height: 650px;
+                    }
+                }
+            }
+
+        }
+    }
+}
 </style>
