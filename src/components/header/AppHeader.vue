@@ -21,6 +21,17 @@
             </p>
             <a href="../main/OurProducts.vue" class="btnWhite">Explore our products</a>
         </div>
+
+        <div class="stickyButton">
+            <div class="demos">
+                <i class="fa-solid fa-cookie-bite"></i>
+                <span>Demos</span>
+            </div>
+            <div class="demos">
+                <span class="price">$39</span>
+                <span>On Sale</span>
+            </div>
+        </div>
     </header>
 </template>
 
@@ -83,6 +94,39 @@ header {
             font-size: 80px;
         }
 
+    }
+
+    .stickyButton {
+        position: fixed;
+        top: 100px;
+        right: 20px;
+
+        .demos {
+            background-color: $colorWhite;
+            border-radius: 5px;
+            color: #33475b;
+            aspect-ratio: 1;
+            width: 80px;
+            margin: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            font-weight: bold;
+            box-shadow: 0px 0px 30px -10px #000000;
+            cursor: pointer;
+
+            i {
+                font-size: 30px;
+            }
+
+            .price {
+                color: #65bc7b;
+                font-size: 30px;
+
+            }
+        }
     }
 }
 </style>
